@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+.daDataBlock {
+  display: flex;
+  flex-direction: column;
+/*   width: fit-content; */
+  width: 400px;
+}
+.daDataBlock__input {
+  padding: 5px 10px;
+  display: inline;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.daDataBlock__input:focus {
+    border: 2px solid #555;
+}
+.daDataBlock__item {
+  padding: 5px 10px;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+.daDataBlock__item:first-of-type {
+  border-top:  1px solid gray;
+}
+.daDataBlock__item:last-of-type {
+  border-bottom:  1px solid gray;
+}
